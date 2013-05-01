@@ -1,0 +1,11 @@
+{
+    "name": "workinHard",
+	"description": "Type enter and code appears.",
+	"version": "0.1.0",
+	"private": false,
+	"author": {
+		"name": "Josh Shemas",
+	},
+	"dependencies": {
+	}
+}
