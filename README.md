@@ -8,6 +8,7 @@ Just run the app, hammer away at the keyboard, then press enter and code will ap
 You need to have Node.js(v0.8.16) running.
 
 ```
+npm install
 node app.js
 ```
 
