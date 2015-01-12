@@ -1,5 +1,4 @@
-var keypress = require('keypress'),
-  tty = require('tty');
+var keypress = require('keypress');
 
 // make `process.stdin` begin emitting "keypress" events
 keypress(process.stdin);
@@ -168,23 +167,15 @@ codeBank = [
 ];
 
 
-// listen for the "keypress" event
 process.stdin.on('keypress', function (ch, key) {
-	if(key.name == 'enter') {
-		var ranNum = Math.floor((Math.random()*11)); //between 0-11
-		console.log(codeBank[ranNum]);
-	};
-
-	// to exit app
 	if (key && key.ctrl && key.name == 'c') {
 		process.stdin.pause();
 	};
+	if(key.name == 'return') {
+		var ranNum = Math.floor((Math.random()*11)); //between 0-11
+		console.log(codeBank[ranNum]);
+	};
 });
 
-if (typeof process.stdin.setRawMode == 'function') {
-	process.stdin.setRawMode(true);
-} else {
-	tty.setRawMode(true);
-};
-
+process.stdin.setRawMode(true);
 process.stdin.resume();

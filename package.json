@@ -1,12 +1,11 @@
 {
 	"name": "workinHard",
 	"description": "Type enter and code appears",
-	"version": "0.1.0",
-	"private": false,
+	"version": "0.1.1",
 	"author": {
 		"name": "Josh Shemas"
 	},
 	"dependencies": {
-		"keypress": "0.1.0"
+		"keypress": "0.2.1"
 	}
 }
