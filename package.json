@@ -3,7 +3,8 @@
 	"description": "Type enter and code appears",
 	"version": "0.1.1",
 	"dependencies": {
-		"keypress": "0.2.1"
+		"keypress": "0.2.1",
+		"cli-color": "0.3.2"
 	},
 	"repository": {
 		"type": "git",
