@@ -13,5 +13,11 @@ npm install workin-hard
 
 ### Usage
 ```
+cd node_modules/workin-hard
 node app.js
+```
+
+To exit:
+```
+ctrl + c
 ```
