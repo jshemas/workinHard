@@ -7,9 +7,11 @@ Just run the app, hammer away at the keyboard, then press enter and code will ap
 Note: This is a clone of http://hackertyper.com/
 
 ### Installation
-You need to have Node.js(v0.10.24) running.
-
 ```
-npm install
+npm install open-graph-scraper
+```
+
+### Usage
+```
 node app.js
 ```
