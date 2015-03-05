@@ -8,7 +8,7 @@ Note: This is a clone of http://hackertyper.com/
 
 ### Installation
 ```
-npm install open-graph-scraper
+npm install workin-hard
 ```
 
 ### Usage
