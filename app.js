@@ -25,6 +25,8 @@ process.stdout.write(msg('\u001B[2J\u001B[0;0f'));
 // listen for inputs
 process.stdin.on('keypress', function (ch, key) {
 	if (key && key.ctrl && key.name == 'c') {
+		msg = clc.xterm(0).bgXterm(231);
+		process.stdout.write(msg('\u001B[2J\u001B[0;0f'));
 		process.stdin.pause();
 	};
 	process.stdout.write(msg(codeBlock.substring(codeBlockPlaceBefore, codeBlockPlaceAfter)));
