@@ -22,6 +22,11 @@ Use the first variable, the following will give you the code from Jack Ryan: Sha
 ```
 node app.js --jackryan
 ```
+or
+```
+npm run workin-hard -- jackryan
+```
+
 
 To exit:
 ```

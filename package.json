@@ -1,7 +1,7 @@
 {
   "name": "workin-hard",
   "description": "Type enter and code appears",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "license": "MIT",
   "main": "app.js",
   "dependencies": {
@@ -19,7 +19,8 @@
     "url": "https://github.com/jshemas"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "workin-hard": "node app.js"
   },
   "keywords": [
     "hacker",
