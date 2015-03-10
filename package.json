@@ -1,33 +1,34 @@
 {
-	"name": "workin-hard",
-	"description": "Type enter and code appears",
-	"version": "0.2.2",
-	"license": "MIT",
-	"main": "app.js",
-	"dependencies": {
-		"keypress": "0.2.1",
-		"cli-color": "0.3.2"
-	},
-	"repository": {
-		"type": "git",
-		"url": "http://github.com/jshemas/workinHard.git",
-		"web" : "http://github.com/jshemas/workinHard"
-	},
-	"author": {
-		"name" : "Josh Shemas",
-		"email" : "jshemas1@gmail.com",
-		"url" : "https://github.com/jshemas"
-	},
-	"scripts": {
-		"start": "node app.js"
-	},
-	"keywords": [
-		"hacker",
-		"typer",
-		"fun"
-	],
-	"engines": {
-		"node": "0.10.24",
-		"npm": "1.3.21"
-	}
+  "name": "workin-hard",
+  "description": "Type enter and code appears",
+  "version": "0.2.2",
+  "license": "MIT",
+  "main": "app.js",
+  "dependencies": {
+    "cli-color": "0.3.2",
+    "keypress": "0.2.1",
+    "minimist": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jshemas/workinHard.git",
+    "web": "http://github.com/jshemas/workinHard"
+  },
+  "author": {
+    "name": "Josh Shemas",
+    "email": "jshemas1@gmail.com",
+    "url": "https://github.com/jshemas"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "hacker",
+    "typer",
+    "fun"
+  ],
+  "engines": {
+    "node": "0.10.24",
+    "npm": "1.3.21"
+  }
 }
