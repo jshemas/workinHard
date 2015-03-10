@@ -16,17 +16,12 @@ npm install workin-hard
 cd node_modules/workin-hard
 node app.js
 ```
-or 
-```
-npm start
-```
 
-####Changing the Code File
-Use the --code variable, the following will give you the code from Jack Ryan: Shadow Recruit
+### Changing the Code File
+Use the first variable, the following will give you the code from Jack Ryan: Shadow Recruit
 ```
-npm start -- --code=jackryan
+node app.js --jackryan
 ```
-
 
 To exit:
 ```

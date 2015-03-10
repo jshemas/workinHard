@@ -1,9 +1,8 @@
 var keypress = require('keypress'),
-		argv = require('minimist')(process.argv.slice(2)),
-		fs = require('fs'),
-		clc = require('cli-color');
+	fs = require('fs'),
+	clc = require('cli-color');
 
-//make `process.stdin` begin emitting "keypress" events
+// make `process.stdin` begin emitting "keypress" events
 keypress(process.stdin);
 
 // import code outputs
@@ -12,8 +11,10 @@ var codeBlock,
 	codeBlockPlaceAfter = 5;
 
 // if code choice is made, use that
-if(argv.code) {
-	fs.readFile( __dirname + '/code/' + argv.code + '.txt', function (err, data) {
+if(process.argv.slice(2).length !== 0) {
+	var fileName = process.argv.slice(2)[0];
+	fileName = fileName.replace(/-/g, '');
+	fs.readFile( __dirname + '/code/' + fileName + '.txt', function (err, data) {
 		if (err) {
 			throw err;
 		}
@@ -27,7 +28,6 @@ if(argv.code) {
 		codeBlock = data.toString();
 	});
 }
-
 
 // set out colors
 var msg = clc.xterm(47).bgXterm(0);
