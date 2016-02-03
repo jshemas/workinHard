@@ -12,17 +12,18 @@ npm install -g workin-hard
 ```
 
 ### Usage
+To run:
 ```
 workin-hard
+```
+
+To exit:
+```
+ctrl + c
 ```
 
 ### Changing the Code File
 Use the first variable, the following will give you the code from Jack Ryan: Shadow Recruit
 ```
 workin-hard --jackryan
-```
-
-To exit:
-```
-ctrl + c
 ```
