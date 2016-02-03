@@ -8,25 +8,19 @@ Note: This is a clone of http://hackertyper.com/
 
 ### Installation
 ```
-npm install workin-hard
+npm install -g workin-hard
 ```
 
 ### Usage
 ```
-cd node_modules/workin-hard
-node app.js
+workin-hard
 ```
 
 ### Changing the Code File
 Use the first variable, the following will give you the code from Jack Ryan: Shadow Recruit
 ```
-node app.js --jackryan
+workin-hard --jackryan
 ```
-or
-```
-npm run workin-hard -- jackryan
-```
-
 
 To exit:
 ```
