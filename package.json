@@ -9,7 +9,7 @@
 		"keypress": "0.2.1"
 	},
 	"bin": {
-		"workin-hard": "./app.js",
+		"workin-hard": "./app.js"
 	},
 	"repository": {
 		"type": "git",
