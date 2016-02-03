@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var keypress = require('keypress'),
 	fs = require('fs'),
 	clc = require('cli-color');

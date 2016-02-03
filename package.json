@@ -1,7 +1,7 @@
 {
 	"name": "workin-hard",
 	"description": "Type enter and code appears",
-	"version": "0.3.1",
+	"version": "0.3.2",
 	"license": "MIT",
 	"main": "app.js",
 	"dependencies": {
