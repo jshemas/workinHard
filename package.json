@@ -1,11 +1,11 @@
 {
 	"name": "workin-hard",
 	"description": "Type enter and code appears",
-	"version": "0.3.2",
+	"version": "0.3.3",
 	"license": "MIT",
 	"main": "app.js",
 	"dependencies": {
-		"cli-color": "0.3.2",
+		"cli-color": "1.1.0",
 		"keypress": "0.2.1"
 	},
 	"bin": {
@@ -29,9 +29,5 @@
 		"hacker",
 		"typer",
 		"fun"
-	],
-	"engines": {
-		"node": "0.10.24",
-		"npm": "1.3.21"
-	}
+	]
 }
