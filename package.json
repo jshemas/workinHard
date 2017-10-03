@@ -1,33 +1,39 @@
 {
-	"name": "workin-hard",
-	"description": "Type enter and code appears",
-	"version": "0.3.5",
-	"license": "MIT",
-	"main": "app.js",
-	"dependencies": {
-		"cli-color": "1.1.0",
-		"keypress": "0.2.1"
-	},
-	"bin": {
-		"workin-hard": "./app.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "http://github.com/jshemas/workinHard.git",
-		"web": "http://github.com/jshemas/workinHard"
-	},
-	"author": {
-		"name": "Josh Shemas",
-		"email": "jjs90jjs@gmail.com",
-		"url": "https://github.com/jshemas"
-	},
-	"scripts": {
-		"start": "node app.js",
-		"workin-hard": "node app.js"
-	},
-	"keywords": [
-		"hacker",
-		"typer",
-		"fun"
-	]
+  "name": "workin-hard",
+  "description": "Type keys and code appears",
+  "version": "0.3.5",
+  "license": "MIT",
+  "main": "app.js",
+  "dependencies": {
+    "cli-color": "1.2.0",
+    "keypress": "0.2.1"
+  },
+  "devDependencies": {
+    "eslint": "4.8.0",
+    "eslint-plugin-promise": "3.5.0",
+    "eslint-plugin-standard": "3.0.1"
+  },
+  "bin": {
+    "workin-hard": "./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jshemas/workinHard.git",
+    "web": "http://github.com/jshemas/workinHard"
+  },
+  "author": {
+    "name": "Josh Shemas",
+    "email": "jjs90jjs@gmail.com",
+    "url": "https://github.com/jshemas"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "workin-hard": "node app.js"
+  },
+  "keywords": [
+    "fun",
+    "games",
+    "hacker typer",
+    "hacker"
+  ]
 }
