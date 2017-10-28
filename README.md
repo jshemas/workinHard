@@ -10,6 +10,12 @@ Note: This is a clone of http://hackertyper.com/
 ```
 npm install -g workin-hard
 ```
+#### OR
+If you are running `npm 5.2.0` or higher, you can try out workinHard without polluting global namespace. 
+Try this with:
+```
+npx workin-hard
+```
 
 ### Usage
 To run:
