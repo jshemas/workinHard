@@ -32,4 +32,9 @@ ctrl + c
 Use the first variable, the following will give you the code from Jack Ryan: Shadow Recruit
 ```
 workin-hard --jackryan
+workin-hard --html
+workin-hard --css
+workin-hard --js
+workin-hard --react
+workin-hard --node
 ```
