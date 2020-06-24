@@ -32,12 +32,14 @@ ctrl + c
 ```
 
 ### Changing the Code File
-Use the first variable, the following will give you the code from Jack Ryan: Shadow Recruit
+Use the first variable as your code type:
 ```
-workin-hard --jackryan
-workin-hard --html
+workin-hard --code
 workin-hard --css
+workin-hard --html
+workin-hard --jackryan
 workin-hard --js
-workin-hard --react
 workin-hard --node
+workin-hard --react
 ```
+Note: If you don't pass in a code type, it will default to `code` from Jack Ryan: Shadow Recruit.
