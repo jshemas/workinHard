@@ -1,7 +1,7 @@
 {
   "name": "workin-hard",
   "description": "Type keys and code appears",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "main": "app.js",
   "dependencies": {
