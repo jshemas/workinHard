@@ -1,6 +1,9 @@
 workinHard
 ==========
 
+[![Node.js CI](https://github.com/jshemas/workinHard/workflows/Node.js%20CI/badge.svg?branch=master)](https://github.com/jshemas/workinHard/actions?query=branch%3Amaster)
+[![Known Vulnerabilities](https://snyk.io/test/github/jshemas/workinHard/badge.svg)](https://snyk.io/test/github/jshemas/workinHard)
+
 workinHard is a node.js app that makes you /look/ more productive!
 Just run the app, hammer away at the keyboard, then press enter and code will appear!
 
