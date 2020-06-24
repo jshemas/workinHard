@@ -5,7 +5,7 @@
   "license": "MIT",
   "main": "app.js",
   "dependencies": {
-    "cli-color": "1.2.0",
+    "cli-color": "2.0.0",
     "keypress": "0.2.1"
   },
   "devDependencies": {
