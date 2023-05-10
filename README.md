@@ -1,5 +1,4 @@
-workinHard
-==========
+# workinHard
 
 [![Node.js CI](https://github.com/jshemas/workinHard/workflows/Node.js%20CI/badge.svg?branch=master)](https://github.com/jshemas/workinHard/actions?query=branch%3Amaster)
 [![Known Vulnerabilities](https://snyk.io/test/github/jshemas/workinHard/badge.svg)](https://snyk.io/test/github/jshemas/workinHard)
@@ -9,31 +8,40 @@ Just run the app, hammer away at the keyboard, then press enter and code will ap
 
 Note: This is a clone of http://hackertyper.com/
 
-### Installation
-```
+## Installation
+
+```bash
 npm install -g workin-hard
 ```
-#### OR
-If you are running `npm 5.2.0` or higher, you can try out workinHard without polluting global namespace. 
+
+OR
+
+If you are running `npm 5.2.0` or higher, you can try out workinHard without polluting global namespace.
 Try this with:
-```
+
+```bash
 npx workin-hard
 ```
 
-### Usage
+## Usage
+
 To run:
-```
+
+```bash
 workin-hard
 ```
 
 To exit:
-```
+
+```bash
 ctrl + c
 ```
 
-### Changing the Code File
+## Changing the Code File
+
 Use the first variable as your code type:
-```
+
+```bash
 workin-hard --code
 workin-hard --css
 workin-hard --html
@@ -42,4 +50,5 @@ workin-hard --js
 workin-hard --node
 workin-hard --react
 ```
+
 Note: If you don't pass in a code type, it will default to `code` from Jack Ryan: Shadow Recruit.
