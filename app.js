@@ -10,7 +10,7 @@ keypress(process.stdin);
 // import code outputs
 let codeBlock;
 let codeBlockPlaceBefore = 0;
-let codeBlockPlaceAfter = 5;
+let codeBlockPlaceAfter = 2;
 
 // if code choice is made, use that
 if (process.argv.slice(2).length !== 0) {
@@ -44,11 +44,11 @@ process.stdin.on('keypress', (ch, key) => {
     process.stdin.pause();
   }
   process.stdout.write(msg(codeBlock.substring(codeBlockPlaceBefore, codeBlockPlaceAfter)));
-  codeBlockPlaceBefore += 5;
-  codeBlockPlaceAfter += 5;
+  codeBlockPlaceBefore += 2;
+  codeBlockPlaceAfter += 2;
   if (codeBlock.substring(codeBlockPlaceBefore, codeBlockPlaceAfter).indexOf('};') !== -1) {
     codeBlockPlaceBefore = 0;
-    codeBlockPlaceAfter = 5;
+    codeBlockPlaceAfter = 2;
   }
 });
 
